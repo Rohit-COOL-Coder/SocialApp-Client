@@ -1,0 +1,69 @@
+.people{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    div{
+    display: flex;
+    align-items: center;
+        img{
+            height: 40px;
+            width: 40px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        span{
+         font-weight: 200;
+         padding-left: 10px;
+        }
+        .showOnline{
+         position: relative;
+         img{
+            height: 40px;
+            width: 40px;
+            object-fit: cover;
+            border-radius: 50%;
+         }
+         .greenDot{
+            position: absolute;
+            top: 0;
+            border-radius: 50%;
+            width: 1px;
+            height: 10px;
+            background-color: green;
+        }
+        }
+        
+
+    }
+    .action{
+       margin-right: 5px;
+       .follow{
+        cursor: pointer;
+        background-color: rgb(97, 135, 110);
+        // width: 60px;
+        border: none;
+        width: 60px;
+        height: 20px;
+        border-radius: 5px;
+        font-size: 10px;
+       }
+       .dismiss{
+        margin-left: 5px;
+        cursor: pointer;
+        background-color:rgb(255, 142, 158);
+        border: none;
+        width: 60px;
+        height: 20px;
+        border-radius: 5px;
+        font-size: 10px;
+
+       }
+    }
+    .time{
+        margin-right: 5px;
+        font-size: 11px;
+        font-weight: 700;
+        opacity: 0.6; 
+    }
+}

@@ -1,0 +1,16 @@
+.home{
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+    top: 50px;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .storySlider{
+        margin-top: 20px;
+        width: 55vw;
+        height: 40vh;;
+    }
+}
